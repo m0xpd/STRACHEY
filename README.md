@@ -4,7 +4,7 @@ A Random Looping Sequencer for Eurorack
 
 STRACHEY is a new kind of sequencer for electronic music applications. 
 
-It is named for Christopher Strachey, who (amongst many other accomplishments) is credited as the first person to program a computer to make music, 
+It is named for [Christopher Strachey](https://en.wikipedia.org/wiki/Christopher_Strachey), who (amongst many other accomplishments) is credited as the first person to program a computer to make music, 
 developed one of the first computer games, and developed the programming language CPL, a precursor of C (which is used in the code which runs this 
 STRACHEY sequencer).
 
