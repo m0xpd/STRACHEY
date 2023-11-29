@@ -13,7 +13,7 @@ STRACHEY has three channels of outputs: A, B and Y, all of which derive their ti
 STRACHEY's clock signal either is applied from an external source applied to the Clock input or (in the absence of an external clock) is supplied by a simple oscillator integral to STRACHEY. Outputs A and Y both appear on every beat of this clock.
 
 Channel Y is the conventional 'Turing Machine' Output signal, formed of a weighted sum of the Turing Machine's gates 1:8  (the weights being an exponential series proprtional to 1, 0.5, 0.25, 0.125, ...). 
-The Y signal is scaled to range between 0 and 5V and is provided for use as a general modulations source.
+The Y signal is scaled to range between 0 and 5V and is provided for use as a general modulation source.
 
 Channel A is the main STRACHEY output. It produces output (to be interpreted as a pitch 1V/8ve pitch CV signal) at the rate of the main signal clock. It is set to span over a maximum of around 
 six and a half octaves at a resolution of 51 quantisation steps per semitone (meaning there will be less than a 2 cent error in tuning over the range).
