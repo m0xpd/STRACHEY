@@ -4,8 +4,13 @@ A Random Looping Sequencer for Eurorack
 
 STRACHEY is a new kind of sequencer for electronic music applications. 
 
-It is named for [Christopher Strachey](https://en.wikipedia.org/wiki/Christopher_Strachey), who (amongst many other accomplishments) was the first person in England to [program a computer to make music](https://link.springer.com/chapter/10.1007/978-3-319-53280-6_8), leading to the world's [first recording of computer-generated music](http://curation.cs.manchester.ac.uk/digital60/www.digital60.org/media/mark_one_digital_music/mark_one_digital_music.mp3)
-developed one of the world's first computer games, and developed the programming language CPL, a precursor of C (which is used in the code which runs this 
+STRACHEY is published under a Creative Commons By-SA 4.0 License. I you wish to build one, or if you're just curious, you can find description of the hardware here and details of the software running in the controller here.
+
+There are some specifications here and some description of application and patching here.
+
+Background
+
+It is named for [Christopher Strachey](https://en.wikipedia.org/wiki/Christopher_Strachey), who (amongst many other accomplishments) was the first person in England to [program a computer to make music](https://link.springer.com/chapter/10.1007/978-3-319-53280-6_8), leading to the world's [first recording of computer-generated music](http://curation.cs.manchester.ac.uk/digital60/www.digital60.org/media/mark_one_digital_music/mark_one_digital_music.mp3), developed one of the world's first computer games, and developed the programming language CPL, a precursor of C (which is used in the code which runs this 
 STRACHEY sequencer).
 
 STRACHEY implements my [Tuning Strategy for Klee-type Sequencers](https://github.com/m0xpd/TuningStrategyForVoltages) and, as such, 
