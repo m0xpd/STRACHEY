@@ -60,7 +60,7 @@ So - channel B has a generally reduced pitch span compared to channel A (as ther
 
 The idea of introducing permutation between the gates and weights of a Random Looping Sequencer is (as far as I'm aware) a new idea. 
 
-The idea of stopping and single-stepping a sequencer is familiar (and I have shown effects obtained with other multi-rate or asynchronous approaches). But the synchronous permutation of the mapping between gates and weights is less familiar. One notable exception is the idea of reversing the scan direction of a sequencer, (which can be expreesed as a simple permutation) and is seen on sequencers from MFOS 
+The idea of stopping and single-stepping a sequencer is familiar (and I have shown effects obtained with other multi-rate or asynchronous approaches). But the synchronous permutation of the mapping between gates and weights is less familiar. One notable exception is the idea of reversing the scan direction of a sequencer, (which can be expreesed as a simple permutation) and is seen on sequencers from [MFOS](https://musicfromouterspace.com/analogsynth_new/SEQ16_2006/SEQ16_2006.php) 
 
 
 
