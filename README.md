@@ -51,5 +51,27 @@ Neither the permutations or the octave extensions of channel A's weight vector a
 So - channel B has a generally reduced pitch span compared to channel A (as there is no octave extension added via SPAN) and there is no variation introduced by permutation it also has less dense onsets; it samples notes from the set of pitches within the fundamental range of channel A's pitch distribution on a rhythmic sub-pattern of variable DENSITY. It is paricularly useful for forming bass or melody against a fuller arpeggiated 'continuo' from channel A.
 
 
+# Specifications
+
+STRACHEY is 18HP wide.
+
+It extends xx mm behind the front panel when a conventional Eurorack power header (with strain relief) is fitted.
+
+STRACHEY draws:
+xx mA from the +12V power line
+xx mA from the -12V power line
+and nothing from the 5V power line. 
+
+All inputs are protected against over/under voltage.
+
+Most of the CV inputs are intended to operate over a 0:5V control range. However, the Density and Method inputs are applied to attenuverters; these inputs will respond to signals spanning 
+the entire bipolar Eurorack voltage range (+/- 12V).
+
+The external Clock input is triggered by signals exceeding an (upward) threshold of 1.25V.
+
+The Evolve input similarly responds to signals exceeding an (upward) threshold of 1.25V.
+
+The Write input is held at mid-voltage (2.5V) by an internal resistor network. Pulling this voltage below xx V will write a '0' and above xx V will write a '1'.
+
 
 
