@@ -1,7 +1,7 @@
 # STRACHEY
 A Random Looping Sequencer for Eurorack
 
-(image)
+-image-
 
 STRACHEY is a new kind of sequencer for electronic music applications. 
 
