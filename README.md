@@ -24,7 +24,7 @@ STRACHEY implements my [Tuning Strategy for Klee-type Sequencers](https://github
 it is directly inspired by Music Thing Modular's [Turing Machine](https://www.musicthing.co.uk/Turing-Machine/) and its [Voltages expander](https://www.musicthing.co.uk/Turing-Volts-Expander/). 
 
 STRACHEY contains an implementation of the Turing Machine ('TM'), offering most of the features of the original hardware, including the ability to interface to expanders, such as [Pulses](https://www.musicthing.co.uk/Turing-Pulse-Expander/), [Volts](https://www.musicthing.co.uk/Turing-Volts-Expander/) and even [Voltages](https://www.musicthing.co.uk/Turing-Volts-Expander/). 
-Most importantly, STRACHEY directly implements the fixed tunings presented in my [Tuning Strategy](https://github.com/m0xpd/TuningStrategyForVoltages), without the need to set these up on the sliders of a Voltages expander (which is a laborious and delicate task). This offers opportunity to quickly expand and develop the tunings (e.g. using octave expansions) and - most importantly - to instantly move between the tunings (allowing modulation and "chord progressions"). However, STRACHEY does more...
+Most importantly, STRACHEY directly implements many of the fixed tunings presented in my [Tuning Strategy](https://github.com/m0xpd/TuningStrategyForVoltages), without the need to set these up on the sliders of a Voltages expander (which is a laborious and delicate task). This offers opportunity to quickly expand and develop the tunings (e.g. using octave expansions) and - most importantly - to instantly move between the tunings (allowing modulation and "chord progressions"). However, STRACHEY does more...
 
 STRACHEY has three channels of outputs: A, B and Y, all of which derive their timing from a master clock. This architecture reflects another source of inspiration for STRACHEY: Mutable Instruments' [Marbles](https://pichenettes.github.io/mutable-instruments-documentation/modules/marbles/). 
 
@@ -56,6 +56,13 @@ Secondly, the initial weight vector can be subject to octave span extensions (un
 Neither the permutations or the octave extensions of channel A's weight vector are applied to channel B.
 
 So - channel B has a generally reduced pitch span compared to channel A (as there is no octave extension added via SPAN) and there is no variation introduced by permutation it also has less dense onsets; it samples notes from the set of pitches within the fundamental range of channel A's pitch distribution on a rhythmic sub-pattern of variable DENSITY. It is paricularly useful for forming bass or melody against a fuller arpeggiated 'continuo' from channel A.
+
+
+The idea of introducing permutation between the gates and weights of a Random Looping Sequencer is (as far as I'm aware) a new idea. 
+
+The idea of stopping and single-stepping a sequencer is familiar (and I have shown effects obtained with other multi-rate or asynchronous approaches). But the synchronous permutation of the mapping between gates and weights is less familiar. One notable exception is the idea of reversing the scan direction of a sequencer, (which can be expreesed as a simple permutation) and is seen on sequencers from MFOS 
+
+
 
 
 # Specifications
