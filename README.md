@@ -5,7 +5,13 @@ A Random Looping Sequencer for Eurorack
 
 STRACHEY is a new kind of sequencer for electronic music applications. 
 
-STRACHEY is published under a Creative Commons By-SA 4.0 [License](https://github.com/m0xpd/STRACHEY/blob/main/LICENSE.txt). I you wish to build one, or if you're just curious, you can find [description of the hardware here](https://github.com/m0xpd/STRACHEY/tree/main/Hardware) and [details of the software running in the controller here](https://github.com/m0xpd/STRACHEY/tree/main/Controller).
+Strachey's novelty is two-fold: 
+* it directly implements my tuning strategy for Klee-type sequencers and
+* it introduces a Permutation Matrix between the gates and the weights, adding a new dimension of variability 
+
+STRACHEY is published under a Creative Commons By-SA 4.0 [License](https://github.com/m0xpd/STRACHEY/blob/main/LICENSE.txt). 
+
+I you wish to build one, or if you're just curious, you can find [description of the hardware here](https://github.com/m0xpd/STRACHEY/tree/main/Hardware) and [details of the software running in the controller here](https://github.com/m0xpd/STRACHEY/tree/main/Controller).
 
 There are some [specifications here](https://github.com/m0xpd/STRACHEY/blob/main/README.md#specifications) and descriptions of application and patching here.
 
