@@ -55,12 +55,12 @@ Secondly, the initial weight vector can be subject to octave span extensions (un
 
 Neither the permutations or the octave extensions of channel A's weight vector are applied to channel B.
 
-So - channel B has a generally reduced pitch span compared to channel A (as there is no octave extension added via SPAN) and there is no variation introduced by permutation it also has less dense onsets; it samples notes from the set of pitches within the fundamental range of channel A's pitch distribution on a rhythmic sub-pattern of variable DENSITY. It is paricularly useful for forming bass or melody against a fuller arpeggiated 'continuo' from channel A.
+So - channel B has a generally reduced pitch span compared to channel A (as there is no octave extension added via SPAN) and there is no variation introduced by permutatio. It also has less dense onsets; it samples notes from the set of pitches within the fundamental range of channel A's pitch distribution on a rhythmic sub-pattern of variable DENSITY. It is paricularly useful for forming bass or melody against a fuller, arpeggiated 'continuo' from channel A.
 
 
 The idea of introducing permutation between the gates and weights of a Random Looping Sequencer is (as far as I'm aware) a new idea. 
 
-The idea of stopping and single-stepping a sequencer is familiar and I have [demonstrated some other effects](https://www.youtube.com/watch?v=kFBzPTS7XLM) obtained with other multi-rate or asynchronous approaches. But the synchronous permutation of the mapping between gates and weights is less familiar. One notable exception is the idea of reversing the scan direction of a sequencer, (which can be expreesed as a simple permutation) and is seen e.g. on sequencers from [MFOS](https://musicfromouterspace.com/analogsynth_new/SEQ16_2006/SEQ16_2006.php) and [Doepfer](https://doepfer.de/a154.htm). 
+The idea of stopping and single-stepping a sequencer is familiar and I have [demonstrated some other effects](https://www.youtube.com/watch?v=kFBzPTS7XLM) obtained with other multi-rate or asynchronous approaches. But the synchronous permutation of the mapping between gates and weights is less familiar. One notable exception is the idea of reversing the scan direction of a sequencer, (which can be expressed as a simple permutation) and is seen e.g. on sequencers from [MFOS](https://musicfromouterspace.com/analogsynth_new/SEQ16_2006/SEQ16_2006.php) and [Doepfer](https://doepfer.de/a154.htm). 
 
 There are other synchronous permutations worth exploring.
 
