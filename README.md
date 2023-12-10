@@ -9,7 +9,7 @@ STRACHEY is a new kind of sequencer for electronic music applications.
 
 STRACHEY's novelty is two-fold: 
 * it directly implements my [tuning strategy](https://github.com/m0xpd/TuningStrategyForVoltages) for Klee-type sequencers and
-* it introduces a Permutation Matrix between the gates and the weights, adding a new dimension of variability
+* it introduces a [Permutation Matrix](https://en.wikipedia.org/wiki/Permutation_matrix) between the gates and the weights, adding a new dimension of variability
 
 STRACHEY is published under a Creative Commons BY-SA 4.0 [License](https://github.com/m0xpd/STRACHEY/blob/main/LICENSE.txt). 
 
