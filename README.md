@@ -9,7 +9,7 @@ STRACHEY's novelty is two-fold:
 * it directly implements my [tuning strategy](https://github.com/m0xpd/TuningStrategyForVoltages) for Klee-type sequencers and
 * it introduces a Permutation Matrix between the gates and the weights, adding a new dimension of variability
 
-STRACHEY is published under a Creative Commons By-SA 4.0 [License](https://github.com/m0xpd/STRACHEY/blob/main/LICENSE.txt). 
+STRACHEY is published under a Creative Commons BY-SA 4.0 [License](https://github.com/m0xpd/STRACHEY/blob/main/LICENSE.txt). 
 
 I you wish to build one, or if you're just curious, you can find [description of the hardware here](https://github.com/m0xpd/STRACHEY/tree/main/Hardware) and [details of the software running in the controller here](https://github.com/m0xpd/STRACHEY/tree/main/Controller).
 
