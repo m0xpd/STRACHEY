@@ -113,7 +113,7 @@ the entire bipolar Eurorack voltage range (+/- 12V).
 
 The external Clock input is triggered by signals exceeding an (upward) threshold of 1.25V.
 
-The Evolve input similarly responds to signals exceeding an (upward) threshold of 1.25V.
+??? The Evolve input similarly responds to signals exceeding an (upward) threshold of 1.25V.
 
 The Write input is held at mid-voltage (2.5V) by an internal resistor network. Pulling this voltage below xx V will write a '0' and above xx V will write a '1'.
 
