@@ -39,7 +39,7 @@ Channel Y is the conventional TM 'OUT' signal, formed of a weighted sum of the T
 
 STRACHEY's Y signal is scaled to range between 0 and 5V and is provided for use as a general modulation source.
 
-Channel A is the main STRACHEY output. It produces an output (to be interpreted as a pitch 1V/8ve pitch CV signal) at the rate of the main signal clock. 
+Channel A is the main STRACHEY output. It produces an output (to be interpreted as a 1V/octave pitch CV signal) at the rate of the main signal clock. 
 It is set to span a maximum of around six and a half octaves at a resolution of 51 quantisation steps per semitone 
 (meaning there will be less than a 2 cent error in tuning over the system's range).
 
