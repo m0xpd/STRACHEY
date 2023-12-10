@@ -72,7 +72,7 @@ There are other synchronous permutations worth exploring.
 Back in 2017 I made a gate sequencer 
 
 <p width=100%, align="center">
-<img width=40%, src="https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Graphics/Camp%20front%20perspective%20LoRes.jpg">
+<img width=20%, src="https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Graphics/Camp%20front%20perspective%20LoRes.jpg">
 </p>
 
 which was inspired by patterns used in [Change Ringing](https://en.wikipedia.org/wiki/Change_ringing), a perversely English way of sounding the bells of a Church. These patterns are called "Methods". The key ingredient of Change Ringing is an exploration of the permutations by which a number of bells may be sounded in sequence. In the case of my module, I implemented four of the traditional "Methods"  (Rounds, Plain Hunt, Grandsire and Plain Bob) to trigger any number of gates (any "[Stage](https://jaharrison.me.uk/Ringing/Glossary/S.html#stage)") between 4 and 8 and - for the purposes of demonstration - I added 1V/8ve pitch CV outputs typical of the diatonic tuning of bells. 
