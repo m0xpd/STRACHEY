@@ -61,6 +61,7 @@ Neither the permutations or the octave extensions of channel A's weight vector a
 
 So - channel B has a generally reduced pitch span compared to channel A (as there is no octave extension added via SPAN) and there is no variation introduced by permutation. It also has less dense onsets; it samples notes from the set of pitches within the fundamental range of channel A's pitch distribution on a rhythmic sub-pattern of variable DENSITY. It is paricularly useful for forming bass or melody against a fuller, arpeggiated 'continuo' from channel A.
 
+# Permuting the Weights of a Step Sequencer
 
 The idea of introducing permutation between the gates and weights of a Random Looping Sequencer is (as far as I'm aware) a new idea. 
 
@@ -68,7 +69,13 @@ The idea of stopping and single-stepping a sequencer is, of course, familiar and
 
 There are other synchronous permutations worth exploring.
 
-Back in 2017 I made a gate sequencer which was inspired by patterns used in [Change Ringing](https://en.wikipedia.org/wiki/Change_ringing), a perversely English way of sounding the bells of a Church. These patterns are called "Methods". The key ingredient of Change Ringing is an exploration of the permutations by which a number of bells may be sounded in sequence. In the case of my module, I implemented four of the traditional "Methods"  (Rounds, Plain Hunt, Grandsire and Plain Bob) to trigger any number of gates (any "[Stage](https://jaharrison.me.uk/Ringing/Glossary/S.html#stage)") between 4 and 8 and - for the purposes of demonstration - I added 1V/8ve pitch CV outputs typical of the diatonic tuning of bells. 
+Back in 2017 I made a gate sequencer 
+
+<p width=100%, align="center">
+<img width=40%, src="https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Graphics/Camp%20front%20perspective%20LoRes.jpg">
+</p>
+
+which was inspired by patterns used in [Change Ringing](https://en.wikipedia.org/wiki/Change_ringing), a perversely English way of sounding the bells of a Church. These patterns are called "Methods". The key ingredient of Change Ringing is an exploration of the permutations by which a number of bells may be sounded in sequence. In the case of my module, I implemented four of the traditional "Methods"  (Rounds, Plain Hunt, Grandsire and Plain Bob) to trigger any number of gates (any "[Stage](https://jaharrison.me.uk/Ringing/Glossary/S.html#stage)") between 4 and 8 and - for the purposes of demonstration - I added 1V/8ve pitch CV outputs typical of the diatonic tuning of bells. 
 
 STRACHEY uses a fixed number of weights ("Stage") to form the pitch output from the gate vector: the eight inherited from MTM's Voltages expander. If these 8 weights are seen in analogy with 8 bells (which is the standard stage in a larger bell tower for change ringing), some of STRACHEY's methods for permuting the weights can be related to bell ringing.
 
