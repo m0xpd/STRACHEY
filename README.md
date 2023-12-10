@@ -59,7 +59,7 @@ Secondly, the initial weight vector can be subject to octave span extensions (un
 
 Neither the permutations or the octave extensions of channel A's weight vector are applied to channel B.
 
-So - channel B has a generally reduced pitch span compared to channel A (as there is no octave extension added via SPAN) and there is no variation introduced by permutatio. It also has less dense onsets; it samples notes from the set of pitches within the fundamental range of channel A's pitch distribution on a rhythmic sub-pattern of variable DENSITY. It is paricularly useful for forming bass or melody against a fuller, arpeggiated 'continuo' from channel A.
+So - channel B has a generally reduced pitch span compared to channel A (as there is no octave extension added via SPAN) and there is no variation introduced by permutation. It also has less dense onsets; it samples notes from the set of pitches within the fundamental range of channel A's pitch distribution on a rhythmic sub-pattern of variable DENSITY. It is paricularly useful for forming bass or melody against a fuller, arpeggiated 'continuo' from channel A.
 
 
 The idea of introducing permutation between the gates and weights of a Random Looping Sequencer is (as far as I'm aware) a new idea. 
