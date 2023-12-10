@@ -77,7 +77,7 @@ Back in 2017 I made a gate sequencer
 
 which was inspired by patterns used in [Change Ringing](https://en.wikipedia.org/wiki/Change_ringing), a perversely English way of sounding the bells of a Church. These patterns are called "Methods". The key ingredient of Change Ringing is an exploration of the permutations by which a number of bells may be sounded in sequence. In the case of my module, I implemented four of the traditional "Methods"  ([Rounds](https://jaharrison.me.uk/Ringing/Glossary/R.html#rounds), [Plain Hunt](https://en.wikipedia.org/wiki/Plain_hunt), [Grandsire](https://en.wikipedia.org/wiki/Grandsire) and [Plain Bob](https://www.ringing.info/plp/pb8/index.html)) to trigger any number of gates (any "[Stage](https://jaharrison.me.uk/Ringing/Glossary/S.html#stage)") between 4 and 8 and - for the purposes of demonstration - I added 1V/octave pitch CV outputs typical of the diatonic tuning of bells. 
 
-I was, therefore, familiar with the idea of using permutations in general (and permutations from bell ringing in particular) in a step sequencer. The only new step was the application to a Klee-type sequencer.
+I was, therefore, entirely familiar with the idea of using permutations in general (and permutations from bell ringing in particular) in a step sequencer. The only further inventive step for me in the development of STRACHEY was the application of these ideas to a Klee-type sequencer.
 
 STRACHEY uses a fixed number of weights ("Stage") to form the pitch output from the gate vector: the eight inherited from MTM's Voltages expander. If these 8 weights are seen in analogy with 8 bells (which is the standard stage in a larger bell tower for change ringing), some of STRACHEY's methods for permuting the weights can be related to bell ringing.
 
@@ -90,6 +90,7 @@ STRACHEY can also intoduce variation through the permutation matrix by other mea
 STRACHEY can generate a permutation matrix which sorts the weights in pitch order, either descending or ascending. It can do this in two ways - either in an immediate sort or as one step of a [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) (such that a number of successive number of calls to this process are required to achieve the final sort). Each change is made at the start of the cycle (of length determined by the Turing Machine's LENGTH parameter), if requested by an 'Change' input during the previous cycle. STRACHEY can also reset the permutation matrix (to the identity matrix - playing 'rounds' in bell-ringing parlance), can fully randomise the permutation matrix or can introduce one random swap in the permutation matrix associated with swapping position of a random weight with one of its neighbours. (This last variation is rather like the underlying mechanism in [Call-changing](https://en.wikipedia.org/wiki/Call_changes) but is - in this case - randomised rather than designed.)
 
 A table of all the (currently implemented) METHODS is presented below:
+
 
 
 
