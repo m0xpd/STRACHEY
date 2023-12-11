@@ -88,9 +88,9 @@ STRACHEY can *sort* the weights in pitch order, either descending or ascending. 
 
 STRACHEY can also reset the permutation matrix (to the identity matrix - playing 'rounds' in bell-ringing parlance), can fully randomise the permutation matrix or can introduce one random swap in the permutation matrix associated with swapping position of a random weight with one of its neighbours. (This last variation is rather like the underlying mechanism in [Call-changing](https://en.wikipedia.org/wiki/Call_changes) but is - in this case - randomised rather than designed.)
 
-A table of all the (currently implemented) METHODS is presented below:
+A table of all the (currently implemented) METHODS is presented below, along with the boundaries for the voltages which should be applied at the Method CV input if it is desired to select the METHOD using this means. 
 
-|  #   |  Description   |  Vlow   |  Vhigh  |
+|  Method #   |  Description   |  Vlow   |  Vhigh  |
 |------|----|----|----|
 |  0  | Reset |  0  |  0.3125  |
 |  1  | SortAscending |  0.31  |  0.63  |
@@ -99,15 +99,18 @@ A table of all the (currently implemented) METHODS is presented below:
 |  4  | SingleSortDown |  1.25  |  1.56  |
 |  5  | RandomSingle |  1.56  |  1.88  |
 |  6  | PlainHunt |  1.88  |  2.19  |
-|  7  | *NotImplemented*  |  2.19  |  2.5  |
+|  7  | *Not Implemented*  |  2.19  |  2.5  |
 |  8  | RotateR |  2.5  |  2.81  |
 |  9  | RotateL |  2.81  |  3.13  |
-|  10  | *NotImplemented* |  3.13  |  3.44  |
-|  11  | *NotImplemented* |  3.44  |  3.75  |
+|  10  | *Not Implemented* |  3.13  |  3.44  |
+|  11  | *Not Implemented* |  3.44  |  3.75  |
 |  12  | Reverse |  3.75  |  4.06  |
 |  13  | Flip |  4.06  |  4.38  |
-|  14  | *NotImplemented* |  4.38  |  4.69  |
+|  14  | *Not Implemented* |  4.38  |  4.69  |
 |  15  | Reset |  4.69  |  5  |
+
+Note that the **Method #** is shown (in binary) on the four red LEDs above the METHOD control. The selected METHOD will flash after the CHANGE call is made (either by pressing the CHANGE button or pulling down the Change V input) until the selected Method subrouting is called at the start of the next cycle. For continuous methods such as running Plain Hunt (Method # 6) or continuously flipping the order on successive passes (Method # 13)it is appropriate to keep Change continually asserted (by tying the CV low). The Method LEDs will then flash continually, pausing only on the first beat of each cycle (when START=1).      
+
 
 # Specifications
 
