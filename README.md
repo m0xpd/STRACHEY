@@ -92,11 +92,22 @@ A table of all the (currently implemented) METHODS is presented below:
 
 |  #   |  Description   |  Vlow   |  Vhigh  |
 |------|----|----|----|
-|  0  | Reset |  0  |  0  |
-
-
-
-
+|  0  | Reset |  0  |  0.3125  |
+|  1  | SortAscending |  0.31  |  0.63  |
+|  2  | SortDescending |  0.63  |  0.94 |
+|  3  | SingleSortUp |  0.94  |  1.25  |
+|  4  | SingleSortDown |  1.25  |  1.56  |
+|  5  | RandomSingle |  1.56  |  1.88  |
+|  6  | PlainHunt |  1.88  |  2.19  |
+|  7  | *NotImplemented*  |  2.19  |  2.5  |
+|  8  | RotateR |  2.5  |  2.81  |
+|  9  | RotateL |  2.81  |  3.13  |
+|  10  | *NotImplemented* |  3.13  |  3.44  |
+|  11  | *NotImplemented* |  3.44  |  3.75  |
+|  12  | Reverse |  3.75  |  4.06  |
+|  13  | Flip |  4.06  |  4.38  |
+|  14  | *NotImplemented* |  4.38  |  4.69  |
+|  15  | Reset |  4.69  |  5  |
 
 # Specifications
 
