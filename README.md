@@ -118,7 +118,7 @@ The selected METHOD will flash after a CHANGE call is made (either by pressing t
 
 STRACHEY is 18HP wide.
 
-It extends xx mm behind the front panel when a conventional Eurorack power header (with strain relief) is fitted.
+It extends xx mm behind the front panel when a conventional Eurorack power header (with strain relief) is inserted.
 
 STRACHEY draws:
 xx mA from the +12V power line
