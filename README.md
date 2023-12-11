@@ -127,14 +127,12 @@ and nothing from the 5V power line.
 
 All inputs are protected against over/under voltage.
 
-Most of the CV inputs are intended to operate over a 0:5V control range. However, the Density and Method inputs are applied to attenuverters; these inputs will respond to signals spanning 
-the entire bipolar Eurorack voltage range (+/- 12V).
+Most of the CV inputs are intended to operate over a 0:5V control range. However, the Density and Method CV inputs are applied to attenuverters; these inputs will respond to signals spanning the entire bipolar Eurorack voltage range (+/- 12V). It is my habit to set up my attenuator controls such that full counterclockwise rotation gives unity gain and full clockwise rotation gives gain of -1. This is opposite to common practice.
 
-The external Clock input is triggered by signals exceeding an (upward) threshold of 1.25V.
+The external Clock input is triggered by signals exceeding an **(upward) threshold of 1.25V**.
 
-??? The Evolve input similarly responds to signals exceeding an (upward) threshold of 1.25V.
+The Change CV input is ACTIVE LOW (it must be pulled low to call one of the CHANGE METHODs and held high to retain the status quo). This similarly responds to signals exceeding an (upward) threshold of 1.25V but, given the ACTIVE LOW nature of this control, the **downward threshold of 1.05V** is more significant.
 
-The Write input is held at mid-voltage (2.5V) by an internal resistor network. Pulling this voltage below xx V will write a '0' and above xx V will write a '1'.
-
+The Write input is usually held at mid-voltage (2.5V) by an internal resistor network. When an input is applied to the Write CV jack, this 2.5V is disconnected, so any external device should provide a steady voltage close to 2.5V. Pulling this voltage **below 0.49 V will write a '0'** and **above 4.39 V will write a '1'**.
 
 
