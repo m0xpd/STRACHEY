@@ -111,7 +111,7 @@ A table of all the (currently implemented) METHODS is presented below, along wit
 
 Note that the **Method #** is displayed (in binary) on the four red LEDs above the METHOD control. 
 
-The selected METHOD will flash after a CHANGE call is made (either by pressing the CHANGE button or pulling down the Change V input) until the selected Method subroutine is called at the start of the next cycle. For continuous methods such as running Plain Hunt (Method # 6) or continuously flipping the order on successive passes (Method # 13) it is appropriate to keep Change continually asserted (e.g. by tying the Change CV low). The Method LEDs will then flash continually, pausing only on the first beat of each cycle when START=1.      
+The selected METHOD will flash after a CHANGE call is made (either by pressing the CHANGE button or pulling down the Change V input) until the selected Method subroutine call is completed at the start of the next cycle. For continuous methods such as running Plain Hunt (Method # 6) or continuously flipping the order on successive passes (Method # 13) it is appropriate to keep Change continually asserted (e.g. by tying the Change CV low). The Method LEDs will then flash continually, pausing only on the first beat of each cycle when START=1.      
 
 
 # Specifications
