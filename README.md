@@ -131,7 +131,7 @@ Most of the CV inputs are intended to operate over a 0:5V control range. However
 
 The external Clock input is triggered by signals exceeding an **(upward) threshold of 1.25V**.
 
-The Change CV input is ACTIVE LOW (it must be pulled low to call one of the CHANGE METHODs and held high to retain the status quo). This similarly responds to signals exceeding an (upward) threshold of 1.25V but, given the ACTIVE LOW nature of this control, the **downward threshold of 1.05V** is more significant.
+The Change CV input is ACTIVE LOW - it must be pulled low to call one of the CHANGE METHODs and held high to retain the status quo. This input similarly responds to signals exceeding an (upward) threshold of 1.25V but, given the ACTIVE LOW nature of this control, the **downward threshold of 1.05V** is more important.
 
 The Write input is usually held at mid-voltage (2.5V) by an internal resistor network. When an input is applied to the Write CV jack, this 2.5V is disconnected, so any external device should provide a steady voltage close to 2.5V. Pulling this voltage **below 0.49 V will write a '0'** and **above 4.39 V will write a '1'**.
 
