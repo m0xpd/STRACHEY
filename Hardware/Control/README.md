@@ -27,4 +27,6 @@ The [.pcb file]() and [.pro file]() (togther with the [.sch file]() ) constitute
 
 # Assembly
 
-As with all such 'control boards' which mate with an accurately prepared front panel, it is advisable to fit the panel-mounting components into BOTH the PCB and panel before soldering, to ensure correct alignment. This is **particularly important** with all the tiny LEDs, as alignment is critical!
+As with all such 'control boards' which mate with an accurately prepared front panel, it is advisable to fit the panel-mounting components into BOTH the PCB and panel before soldering, to ensure correct alignment. 
+
+This is **particularly important** with all the tiny LEDs in STRACHEY, as alignment is critical!
