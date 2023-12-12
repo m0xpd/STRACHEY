@@ -36,7 +36,7 @@ Channel Y is the conventional TM 'OUT' signal, formed of a weighted sum of the T
 
 Channel A is the main STRACHEY output. It produces an output (to be interpreted as a 1V/octave pitch CV signal) at the rate of the main signal clock. 
 It is set to span six and a half octaves at a resolution of 51 quantisation steps per semitone 
-(meaning there will be less than a 2 cent error in tuning over the system's range).
+(meaning there will be less than a 2 cent error in tuning over the system's range, if we can trust the DAC linearity).
 
 Channel B is the secondary STRACHEY output. It operates at the same resolution as channel B but (for reasons which will become apparent), the pitch range of channel B is lower than that of channel A. 
 
