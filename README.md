@@ -1,5 +1,4 @@
 # STRACHEY
-A Random Looping Sequencer for Eurorack
 
 <p width=100%, align="center">
 <img width=40%, src="https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Graphics/STRACHEY%20front%20perspective%20LoRes.jpg">
