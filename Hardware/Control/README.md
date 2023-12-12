@@ -25,6 +25,13 @@ Finally, although the PCB shows a 3mm LED footprint, the front panel is drilled 
 The [.pcb file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_pcb) and [.pro file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_pro) (togther with the [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_sch) ) constitute a KiCad project, which define the Main board. 
 
 [JLCPCB](https://jlcpcb.com) made the boards for my prototype and did their usual excellent job (usual disclaimer) - you can see the top and bottom sides of the Control Board below:
+<p width=100%, align="center">
+<img width=80%, src="https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/Graphics/STRACHEY%20Component%20Board%20Unpopulated.jpg".  
+</p>
+
+
+
+
 
 # Assembly
 
