@@ -10,3 +10,6 @@ You can download the main board's schematic as a [.sch file](https://github.com/
 
 The Main Board hosts power supplies, the Arduino Nano, the DACs, output drivers, input protection and conditioning circuits, the Turing Machine Expansion port, and interface to the control Board.
 
+The [.pcb file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/main%20board.kicad_pcb) and [.pro file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/main%20board.kicad_pro) (togther with the [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/main%20board.kicad_sch) ) constitute a KiCad project, which define the Main board. JLCPCB made the boards for my prototype and did their usual excellent job - you can see the top and bottom sides of the Main Board below:
+
+
