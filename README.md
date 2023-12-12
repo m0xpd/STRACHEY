@@ -35,7 +35,7 @@ STRACHEY's clock signal can be applied from an external source to the Clock inpu
 Channel Y is the conventional TM 'OUT' signal, formed of a weighted sum of the TM's gates 1:8  (the weights being an exponential series, proportional to 1, 0.5, 0.25, 0.125, ...). STRACHEY's Y signal is scaled to range between 0 and 5V and is provided for use as a general modulation source.
 
 Channel A is the main STRACHEY output. It produces an output (to be interpreted as a 1V/octave pitch CV signal) at the rate of the main signal clock. 
-It is set to span a maximum of around six and a half octaves at a resolution of 51 quantisation steps per semitone 
+It is set to span six and a half octaves at a resolution of 51 quantisation steps per semitone 
 (meaning there will be less than a 2 cent error in tuning over the system's range).
 
 Channel B is the secondary STRACHEY output. It operates at the same resolution as channel B but (for reasons which will become apparent), the pitch range of channel B is lower than that of channel A. 
