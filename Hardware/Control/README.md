@@ -15,12 +15,16 @@ In addition to the front panel / UI components mentioned above, the control boar
 STRACHEY is my first electronic project in KiCad and I am new to the BoM generator's .csv output format. I have decided to save this information [as an Excel file]() to retain some edits I made. 
 
 There are a few points where the BoM should be emphasised, as the information is not made explicit in the schematic.
-Firstly, whilst all potentiometers use the 9mm snap-in vertical footprint, only three are the usual 'Alpha' pots. These are VR2 (The TUNING Control), VR5 (The DENSITTY control) & VR8 (The TURING Control). The remaining potentiometers are Song Huei 9mm Trimmers
+Firstly, whilst all potentiometers use the 9mm snap-in vertical footprint, only three are the usual 'Alpha' pots. These are VR2 (The TUNING Control), VR5 (The DENSITY control) & VR8 (The TURING Control). The remaining potentiometers are Song Huei 9mm Trimmers
 
 Secondly, the momentary action 6mm 'tactile' switches, SW1:SW3 should be of 13mm size (or taller). The tip of the shaft of a 13mm switch protrudes through the front panel by a little over 1.5mm, which looks and feels right. If you want more, fit a 14mm or 15mm switch.
 
-Finally, I have chosen to use green LEDs for the TUNING indication (LEDs 13:17, 19, 21 & 23) whilst the rest are red. Series resistors of 1K for the green and 10k for the red work well with the particular LEDs I'm using - hence the component values for the resistor networks RN1 & 2 etc.. However, you should check you LEDs for appropriate brightness before fitting the resistors. 
+Finally, although the PCB shows a 3mm LED footprint, the front panel is drilled to accept 2mm "Lighthouse-type" LEDs. I have chosen to use green LEDs for the TUNING indication (LEDs 13:17, 19, 21 & 23) whilst the rest are red. Series resistors of 1K for the green and 10k for the red work well with the particular LEDs I'm using - hence the component values for the resistor networks RN1 & 2 etc.. However, you should check YOUR LEDs for appropriate brightness before fitting the resistors. 
 
 The [.pcb file]() and [.pro file]() (togther with the [.sch file]() ) constitute a KiCad project, which define the Main board. 
 
 [JLCPCB](https://jlcpcb.com) made the boards for my prototype and did their usual excellent job (usual disclaimer) - you can see the top and bottom sides of the Main Board below:
+
+# Assembly
+
+As with all such 'control boards' which mate with an accurately prepared front panel, it is advisable to fit the panel-mounting components into BOTH the PCB and panel before soldering, to ensure correct alignment. This is **particularly important** with all the tiny LEDs, as alignment is critical!
