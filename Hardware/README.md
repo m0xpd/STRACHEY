@@ -3,7 +3,7 @@ This folder contains details of STRACHEY's hardware.
 
 STRACHEY is implemented using through-hole components mounted on two PCBs, each measuring 88 * 108 mm.
 
-The majority of the electronics, incuding the Arduino Nano, which controls operations, are mounted on the '[main board](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/ReadMe.md)', whilst user-interface components are mounted on the 'control board'.
+The majority of the electronics, incuding the Arduino Nano, which controls operations, are mounted on the '[main board](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/ReadMe.md)', whilst user-interface components are mounted on the '[control board](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/README.md)'.
 
 The control board also hosts two shift registers, implemented on three 74HC595 devices. The first shift register displays the gate vector (and outputs it to the expansion port) and the second shift register is used to support all the other LEDs, which display configuration / status information.
 
