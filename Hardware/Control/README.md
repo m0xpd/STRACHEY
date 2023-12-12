@@ -8,7 +8,7 @@ This folder contains details of STRACHEY's control board, which you see below (c
 
 The bottom side of the control board contains all the jacks, pots, tactile switches, and 24 LEDs, which mate with the Front Panel and form the user interface.
 
-You can download the main board's schematic as a [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_sch) into your PCB program (KiCad etc) or see a [PDF version](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board%20schematic.pdf).
+You can download the main board's schematic as a [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_sch) into your PCB program (KiCad etc) or download a [PDF version](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board%20schematic.pdf).
 
 In addition to the front panel / UI components mentioned above, the control board hosts three 74HC595 serial in, parallel out shift registers. One of these communicates gate signals from inside the Aruino to the physical world - for display on the LEDs, for application to the DAC which drives the channel Y output, and for gate 1 output. The other 2 shift registers service all the other status indication lights.
 
