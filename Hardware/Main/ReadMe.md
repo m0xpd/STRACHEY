@@ -1,6 +1,10 @@
 # Main Board
 
-This folder contains details of STRACHEY's Main Board.
+This folder contains details of STRACHEY's Main Board which you seen below (component side) 
+
+<p>
+<img src="https://github.com/m0xpd/STRACHEY/commit/8268db48986d0147e8711534dfda63ec0ebdc3db".  
+</p>
 
 You can download the main board's schematic as a [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/main%20board.kicad_sch) into your PCB program (KiCad etc) or see a [PDF version](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/main%20board%20schematic.pdf).
 
