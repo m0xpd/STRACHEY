@@ -57,7 +57,7 @@ So - channel B has a generally reduced pitch span compared to channel A (as ther
 
 # Permuting the Weights of a Step Sequencer
 
-The idea of introducing permutation between the gates and weights of a Random Looping Sequencer is (as far as I'm aware) a new idea. 
+The idea of introducing permutation between the gates and weights of a Random Looping Sequencer is (as far as I'm aware) novel. 
 
 The practice of stopping and single-stepping a sequencer is, of course, familiar and I have [demonstrated some other effects](https://www.youtube.com/watch?v=kFBzPTS7XLM) obtained with multi-rate or asynchronous scanning of a Klee sequencer. But synchronous permutation of the mapping between gates and weights is less familiar. One notable exception is the idea of reversing the scan direction of a sequencer, (which can be expressed as a simple permutation) and is seen on both 'DIY' sequencers from [MFOS](https://musicfromouterspace.com/analogsynth_new/SEQ16_2006/SEQ16_2006.php) and commercial units from e.g. [Doepfer](https://doepfer.de/a154.htm). STRACHEY can - of course - reverse it's scan direction, either by flipping the current permutation or by resetting to a 'reversed' version of the starting weight vector.
 
