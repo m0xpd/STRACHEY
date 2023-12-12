@@ -11,4 +11,4 @@ The boards are joined electrically by two 18-way 0.1 inch headers and an 8-way 0
 
 The system was developed in [KiCad](https://www.kicad.org/) (the first electronic project I have undertaken using this software). KiCad projects for the boards are presented in the Main and Control folders, along with schematics, BoMs and circuit descriptions. A Front Panel design is presented as a KiCad project in the Panel folder.
 
-All the hardware is published under License.
+All the hardware is published under [License](https://github.com/m0xpd/STRACHEY/blob/main/LICENSE.txt).
