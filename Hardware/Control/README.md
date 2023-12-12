@@ -8,20 +8,21 @@ This folder contains details of STRACHEY's control board, which you see below (c
 
 The bottom side of the control board contains all the jacks, pots, tactile switches, and 24 LEDs, which mate with the Front Panel and form the user interface.
 
-You can download the main board's schematic as a [.sch file]() into your PCB program (KiCad etc) or see a [PDF version]().
+You can download the main board's schematic as a [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_sch) into your PCB program (KiCad etc) or see a [PDF version](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board%20schematic.pdf).
 
 In addition to the front panel / UI components mentioned above, the control board hosts three 74HC595 serial in, parallel out shift registers. One of these communicates gate signals from inside the Aruino to the physical world - for display on the LEDs, for application to the DAC which drives the channel Y output, and for gate 1 output. The other 2 shift registers service all the other status indication lights.
 
-STRACHEY is my first electronic project in KiCad and I am new to the BoM generator's .csv output format. I have decided to save this information [as an Excel file]() to retain some edits I made. 
+STRACHEY is my first electronic project in KiCad and I am new to the BoM generator's .csv output format. I have decided to save this information [as an Excel file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/Strachey%20Control%20Board%20BoM.xlsx) to retain some edits I made. 
 
-There are a few points where the BoM should be emphasised, as the information is not made explicit in the schematic.
+There are a few points in the BoM which should be emphasised, as the information is not made explicit in the schematic.
+
 Firstly, whilst all potentiometers use the 9mm snap-in vertical footprint, only three are the usual 'Alpha' pots. These are VR2 (The TUNING Control), VR5 (The DENSITY control) & VR8 (The TURING Control). The remaining potentiometers are Song Huei 9mm Trimmers
 
 Secondly, the momentary action 6mm 'tactile' switches, SW1:SW3 should be of 13mm size (or taller). The tip of the shaft of a 13mm switch protrudes through the front panel by a little over 1.5mm, which looks and feels right. If you want more, fit a 14mm or 15mm switch.
 
 Finally, although the PCB shows a 3mm LED footprint, the front panel is drilled to accept 2mm "Lighthouse-type" LEDs. I have chosen to use green LEDs for the TUNING indication (LEDs 13:17, 19, 21 & 23) whilst the rest are red. Series resistors of 1K for the green and 10k for the red work well with the particular LEDs I'm using - hence the component values for the resistor networks RN1 & 2 etc.. However, you should check YOUR LEDs for appropriate brightness before fitting the resistors. 
 
-The [.pcb file]() and [.pro file]() (togther with the [.sch file]() ) constitute a KiCad project, which define the Main board. 
+The [.pcb file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_pcb) and [.pro file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_pro) (togther with the [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_sch) ) constitute a KiCad project, which define the Main board. 
 
 [JLCPCB](https://jlcpcb.com) made the boards for my prototype and did their usual excellent job (usual disclaimer) - you can see the top and bottom sides of the Main Board below:
 
