@@ -145,7 +145,9 @@ and nothing from the 5V power line.
 
 All inputs are protected against over/under voltage.
 
-Most of the CV inputs are intended to operate over a 0:5V control range. However, the Density and Method CV inputs are applied to attenuverters; these inputs will respond to signals spanning the entire bipolar Eurorack voltage range (+/- 12V). It is my habit to set up my attenuverter controls such that full counterclockwise rotation gives unity gain and full clockwise rotation gives gain of -1. This is **opposite to common practice**.
+Most of the CV inputs are intended to operate over a 0:5V control range. However, the Density and Method CV inputs are applied to attenuverters; these inputs will respond to signals spanning the entire bipolar Eurorack voltage range (+/- 12V). 
+
+It is my habit to set up my attenuverter controls such that full counterclockwise rotation gives unity gain and full clockwise rotation gives gain of -1. This is **opposite to common practice**.
 
 The external Clock input is triggered by signals exceeding an **(upward) threshold of 1.25V**.
 
