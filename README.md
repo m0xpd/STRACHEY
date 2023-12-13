@@ -45,6 +45,7 @@ The control at top right is labelled "TUNING" is contains the weight settings to
 These weight settings are called 'Tunings' and they are selected from my [Tuning Strategy](https://github.com/m0xpd/TuningStrategyForVoltages) to be those which give a [12TET](https://en.wikipedia.org/wiki/Equal_temperament) output which is musically useful. The tunings presently implemented in the code are as follows:
 
 | Tuning# | Description | Tuning Strategy # | Bank | Display |
+|---|---|---|---|---|
 | 0 | Root & Fifth | (3) | A | 10000000 |
 | 1 | AEOLIAN (Natural minor) | 14 | A | 01000000 |
 | 2 | Minor 7th | 5 | A | 00100000 |
