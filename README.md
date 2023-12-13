@@ -122,7 +122,7 @@ There is one feature of STRACHEY that requires **configuration**. There is provi
 
 # Specifications
 
-STRACHEY is 18HP wide.
+STRACHEY is a Eurorack module, which is **18HP wide**.
 
 It extends xx mm behind the [front panel](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Panel/README.md) when a conventional Eurorack power header (with strain relief) is inserted.
 
