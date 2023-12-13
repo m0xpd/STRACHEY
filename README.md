@@ -126,7 +126,7 @@ There is one feature of STRACHEY that requires **configuration**. There is provi
 
 **Width:** 
 
-STRACHEY is a Eurorack module, which is **18HP wide**.
+STRACHEY is **18HP wide**.
 
 **Depth:**
 
