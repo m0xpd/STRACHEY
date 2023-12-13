@@ -80,7 +80,7 @@ The tunings presently implemented in the code are tabulated below:
 | 22 | Major (IONIAN) | 19 | C | 00000010 |
 | 23 | Descending Major Scale | N/A | C | 00000001 |
 
-'Bank' is indicated by the stack of three LEDs in the centre, middle of the module. Bank A is indicated by the lowest LED.
+'Bank' is indicated by the stack of three LEDs in the centre, top of the module. Bank A is indicated by the lowest LED.
 
 'Display' shows the pattern illuminated on the 'TUNING' LEDs.
 
