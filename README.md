@@ -144,7 +144,7 @@ STRACHEY draws:
 
 and nothing from the 5V power line. 
 
-(peak currents, measured with nothing connected to the expansion port).
+(peak currents, measured with nothing connected to STRACHEY's expansion port).
 
 **Miscellaneous:**
 
