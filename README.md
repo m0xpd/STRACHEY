@@ -124,7 +124,7 @@ There is one feature of STRACHEY that requires **configuration**. There is provi
 
 STRACHEY is 18HP wide.
 
-It extends xx mm behind the front panel when a conventional Eurorack power header (with strain relief) is inserted.
+It extends xx mm behind the [front panel](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Panel/README.md) when a conventional Eurorack power header (with strain relief) is inserted.
 
 STRACHEY draws:
 xx mA from the +12V power line
