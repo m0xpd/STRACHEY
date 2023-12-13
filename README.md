@@ -132,7 +132,7 @@ STRACHEY is **18HP wide**.
 
 STRACHEY extends **43 mm** behind the [front panel](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Panel/README.md) when a conventional Eurorack power header **with strain relief** is inserted (this is the same depth as the [original Turing Machine](https://www.musicthing.co.uk/Turing-Machine/)).
 
-If your power header doesn't have a strain relief (which is probably more typical, judging by the power cables delivered with commercial modules) the depth is limited by the Arduino's USB receptacle; in this situation STRACHEY extends **42mm** behind the front panel.
+If your power header doesn't have a strain relief (which is probably more typical, judging by the power cables delivered with commercial modules) the depth is limited by the Arduino's USB receptacle; in this situation STRACHEY extends **42mm** behind the [front panel](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Panel/README.md).
 
 **Power Consumption:**
 
