@@ -84,9 +84,9 @@ The tunings presently implemented in the code are tabulated below:
 
 'Display' shows the pattern illuminated on the 'TUNING' LEDs.
 
-A bracket surrounding the Tuning Strategy number indicates that it is modified. 
+A bracket surrounding the Tuning Strategy number in the table above indicates that it is slightly modified relative to the tuning given in the Tuning Strategy document (e.g. by the addition of a second flattened fifth to the tritone, to allow it to sound the octave). 
 
-Some tunings are intentionally repeated in the table above for ease of use - some *appear* repeated, but are different forms.
+Some tunings are intentionally repeated in the table above for ease of use - some *appear* repeated, but are different forms (such as the several versions of IONIAN [major scale] tuning which are presented).
 
 STRACHEY goes on to develop outputs using these initial tunings by a series of modifications and manipulations, which are now described.
 
