@@ -124,9 +124,11 @@ There is one feature of STRACHEY that requires **configuration**. There is provi
 
 # Specifications
 
-**Width:** STRACHEY is a Eurorack module, which is **18HP wide**.
+**Width:** 
+STRACHEY is a Eurorack module, which is **18HP wide**.
 
 **Depth:**
+
 STRACHEY extends 43 mm behind the [front panel](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Panel/README.md) when a conventional Eurorack power header **with strain relief** is inserted.
 
 If your power header doesn't have a strain relief (which is probably more typical, judging by the power cables delivered with commercial modules) the depth is limited by the Arduino's USB receptacle; in this situation STRACHEY extends 42mm behind the front panel.
