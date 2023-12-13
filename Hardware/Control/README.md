@@ -22,7 +22,7 @@ Firstly, whilst all potentiometers use the 9mm snap-in vertical footprint, only 
 
 Secondly, the momentary action 6mm 'tactile' switches, SW1:SW3 should be of 13mm size (or taller). The tip of the shaft of a 13mm switch protrudes through the front panel by a little over 1.5mm, which looks and feels right. If you want more, fit a 14mm or 15mm switch.
 
-Finally, although the PCB shows a 3mm LED footprint, the front panel is drilled to accept 2mm "Lighthouse-type" LEDs. I have chosen to use green LEDs for the TUNING indication (LEDs 13:17, 19, 21 & 23) whilst the rest are red. Series resistors of 1K for the green and 10k for the red work well with the particular LEDs I'm using - hence the component values for the resistor networks RN1 & 2 etc.. However, you should check YOUR LEDs for appropriate brightness before fitting the resistors. 
+Finally, although the PCB shows a 3mm LED footprint, the front panel is drilled to accept 2mm "Lighthouse-type" LEDs. I have chosen to use green LEDs for the TUNING indication (LEDs 13:17, 19, 21 & 23) whilst the rest are red. Series resistors of 1K for the green and 10k for the red work well with the particular LEDs I'm using - hence the component values for the resistor networks RN1 & 2 etc.. However, you should check **YOUR** LEDs for appropriate brightness before fitting the resistors. 
 
 The [.pcb file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_pcb) and [.pro file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_pro) (togther with the [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_sch) ) constitute a KiCad project, which define the Main board. 
 
