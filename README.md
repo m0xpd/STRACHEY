@@ -116,7 +116,7 @@ The METHOD display will flash after a CHANGE call is made (either by pressing th
 
 # Calibration and Configuration
 
-STRACHEY has one aspect requiring **calibration** before it will operate correctly; trimmers TR1 and TR2 must be adjusted to ensure that outputs A and B (respectively) are correctly tuned in V/octave terms. The MC4922 DAC is operated over a 0:5V output range, but this output is further passed through non-inverting amplifier stages (IC4D for channel A and IC4 C for channel B) with gain of x2. The code expects the full-scale 5V output from the DAC to be broken down into 2^12 steps and uses 51 steps per semitone. 
+STRACHEY has one aspect requiring **calibration** before it will operate correctly; trimmers TR1 and TR2 must be adjusted to ensure that outputs A and B (respectively) are correctly tuned in V/octave terms. The MC4922 DAC is operated over a 0:5V output range, but the DAC's output is further passed through non-inverting amplifier stages (IC4D for channel A and IC4 C for channel B) with gain of 2. The code expects the full-scale 5V output from the DAC to be broken down into 2^12 steps and uses 51 steps per semitone. 
 
 Accordingly, I have calculated that *in an ideal system* the trimmers should be set to a ratio of 0.669 (i.e. a 1k trimmer should have the lower leg of the potential divider set to 669 Ohms). In reality, where all the components have tolerances and there are some offsets etc., this ratio will not be quite correct - hence the decision to use trimmers rather than fixed resistors. I just measured my own trimmers (which have - so far - been set only 'by ear') and found that TR1 is set at a ratio of 0.696 and TR2 is at a ratio of 0.689. Start off at 0.7 and you'll be close!
 
