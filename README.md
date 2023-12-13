@@ -137,8 +137,11 @@ If your power header doesn't have a strain relief (which is probably more typica
 **Power Consumption:**
 
 STRACHEY draws:
-xx mA from the +12V power line
-xx mA from the -12V power line
+
+48 mA from the +12V power line
+
+10 mA from the -12V power line
+
 and nothing from the 5V power line. 
 
 **Miscellaneous:**
