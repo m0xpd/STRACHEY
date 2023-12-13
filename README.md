@@ -14,7 +14,7 @@ STRACHEY is published under a Creative Commons BY-SA 4.0 [License](https://githu
 
 I you wish to build one, or if you're just curious, you can read or download [details of the hardware, including PCB and front panel designs](https://github.com/m0xpd/STRACHEY/tree/main/Hardware) and [a listing of the controller code](https://github.com/m0xpd/STRACHEY/tree/main/Controller).
 
-There are some [specifications here](https://github.com/m0xpd/STRACHEY/blob/main/README.md#specifications) and some details of [Calibration and Configuration here](). Further description follows below.
+There are some [specifications here](https://github.com/m0xpd/STRACHEY/blob/main/README.md#specifications) and some details of [Calibration and Configuration here](https://github.com/m0xpd/STRACHEY/blob/main/README.md#calibration-and-configuration). Further description follows below.
 
 # Background
 
