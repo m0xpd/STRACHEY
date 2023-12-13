@@ -49,7 +49,7 @@ The weight settings are called 'Tunings' and they are selected from my [Tuning S
 The tunings are arrange in three 'Banks'; 
 * Bank A are "Basic" Tunings, 
 * Bank B are mainly MODES
-* Bank C are mainly 'Symmetric Scales'
+* Bank C are mainly [Symmetric Scales](https://en.wikipedia.org/wiki/Symmetric_scale)
 
 The tunings presently implemented in the code are tabulated below:
 
