@@ -125,6 +125,7 @@ There is one feature of STRACHEY that requires **configuration**. There is provi
 # Specifications
 
 **Width:** 
+
 STRACHEY is a Eurorack module, which is **18HP wide**.
 
 **Depth:**
@@ -134,12 +135,14 @@ STRACHEY extends 43 mm behind the [front panel](https://github.com/m0xpd/STRACHE
 If your power header doesn't have a strain relief (which is probably more typical, judging by the power cables delivered with commercial modules) the depth is limited by the Arduino's USB receptacle; in this situation STRACHEY extends 42mm behind the front panel.
 
 **Power Consumption:**
+
 STRACHEY draws:
 xx mA from the +12V power line
 xx mA from the -12V power line
 and nothing from the 5V power line. 
 
 **Miscellaneous:**
+
 All inputs are protected against over/under voltage.
 
 Most of the CV inputs are intended to operate over a 0:5V control range. However, the Density and Method CV inputs are applied to attenuverters; these inputs will respond to signals spanning the entire bipolar Eurorack voltage range (+/- 12V). It is my habit to set up my attenuverter controls such that full counterclockwise rotation gives unity gain and full clockwise rotation gives gain of -1. This is **opposite to common practice**.
