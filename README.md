@@ -25,7 +25,7 @@ Christopher Strachey developed [one of the world's first computer games](https:/
 STRACHEY implements my [Tuning Strategy for Klee-type Sequencers](https://github.com/m0xpd/TuningStrategyForVoltages) and, as such, 
 it is directly inspired by Music Thing Modular's [Turing Machine](https://www.musicthing.co.uk/Turing-Machine/) and its [Voltages expander](https://www.musicthing.co.uk/Turing-Volts-Expander/). STRACHEY was built on my own experiences and habits, formed when using the Turing Machine with its Voltages expander; STRACHEY tries to capture and make accessible all which I found *musically useful* within the vast space covered by the Turing Machine. 
 
-STRACHEY contains an implementation of the Turing Machine ('TM'). The control labelled "TURING" at top left of the module (and assocted CV input) is the equivalent of the large, conspicuous knob on the original TM hardware, and operates in exactly the same way. 
+STRACHEY contains an implementation of the Turing Machine ('TM'). The control labelled "TURING" at top left of the module (and the associated CV input) is the equivalent of the large, conspicuous knob on the original TM hardware, and operates in exactly the same way. 
 
 STRACHEY offers (almost) all the features of the original hardware, including the ability to interface to expanders, such as [Pulses](https://www.musicthing.co.uk/Turing-Pulse-Expander/), [Volts](https://www.musicthing.co.uk/Turing-Volts-Expander/) and even [Voltages](https://www.musicthing.co.uk/Turing-Volts-Expander/). It even adds several new features to its TM implementation (such as the START output and CV control over the Length parameter and the Write function).
 
