@@ -12,9 +12,9 @@ STRACHEY's novelty is two-fold:
 
 STRACHEY is published under a Creative Commons BY-SA 4.0 [License](https://github.com/m0xpd/STRACHEY/blob/main/LICENSE.txt). 
 
-I you wish to build one, or if you're just curious, you can read a [description of the hardware](https://github.com/m0xpd/STRACHEY/tree/main/Hardware) and [details of code running in the controller](https://github.com/m0xpd/STRACHEY/tree/main/Controller).
+I you wish to build one, or if you're just curious, you can read or download [details of the hardware, including PCB and front panel designs](https://github.com/m0xpd/STRACHEY/tree/main/Hardware) and [a listing of the controller code](https://github.com/m0xpd/STRACHEY/tree/main/Controller).
 
-There are some [specifications here](https://github.com/m0xpd/STRACHEY/blob/main/README.md#specifications) and descriptions of application and patching here.
+There are some [specifications here](https://github.com/m0xpd/STRACHEY/blob/main/README.md#specifications) and some details of [Calibration and Configuration here](). Further description follows below.
 
 # Background
 
