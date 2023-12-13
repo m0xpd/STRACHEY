@@ -10,5 +10,5 @@ These add up to a panel which [JLCPCB](https://jlcpcb.com) made for my prototype
 
 You can see the front and rear sides of the prototype panel in the image below:
 <p width=100%, align="center">
-<img width=40%, src="https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Panel/STRACHEY%20Panel.jpg".  
+<img width=80%, src="https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Panel/STRACHEY%20Panel.jpg".  
 </p>
