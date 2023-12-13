@@ -138,11 +138,11 @@ If your power header doesn't have a strain relief (which is probably more typica
 
 STRACHEY draws:
 
-**48 mA** from the +12V power line
+**48 mA** from the +12V power supply line
 
-**10 mA** from the -12V power line
+**10 mA** from the -12V power supply line
 
-and nothing from the 5V power line. 
+and nothing from the 5V power supply line. 
 
 (peak currents, measured with nothing connected to STRACHEY's expansion port).
 
