@@ -6,7 +6,7 @@ This folder contains details of STRACHEY's control board, which you see below (c
 <img width=40%, src="https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/Graphics/STRACHEY%20Control%20Board%20Component%20Side%20Populated.jpg".  
 </p>
 
-The bottom side of the control board contains all the jacks, pots, tactile switches, and 24 LEDs, which mate with the Front Panel and form the user interface.
+The bottom side of the control board hosts all the jacks, pots, tactile switches, and 24 LEDs, which mate with the Front Panel and form the user interface.
 
 You can download the main board's schematic as a [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board.kicad_sch) into your PCB program (KiCad etc) or download a [PDF version](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Control/control%20board%20schematic.pdf).
 
