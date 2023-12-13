@@ -46,6 +46,11 @@ The control at top right of the panel, labelled "TUNING" (and the associated CV 
 
 The weight settings are called 'Tunings' and they are selected from my [Tuning Strategy](https://github.com/m0xpd/TuningStrategyForVoltages) to be those which give an output which is musically useful. 
 
+The tunings are arrange in three 'Banks'; 
+* Bank A are "Basic" Tunings, 
+* Bank B are mainly MODES
+* Bank C are mainly 'Symmetric Scales'
+
 The tunings presently implemented in the code are tabulated below:
 
 | Tuning# | Description | Tuning Strategy # | Bank | Display |
