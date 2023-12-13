@@ -136,7 +136,12 @@ If your power header doesn't have a strain relief (which is probably more typica
 
 **Power Consumption:**
 
-STRACHEY draws:
+| Power Rail | Current |
+|---|---|
+| 12V | 48mA |
+| -12V | 10mA |
+| 5V | 0 |
+
 
 **48 mA** from the +12V power supply line
 
