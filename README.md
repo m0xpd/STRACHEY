@@ -165,7 +165,7 @@ A table of all the (currently implemented) METHODS is presented below, along wit
 |  12  | Reverse |  3.75  |  4.06  |
 |  13  | Flip |  4.06  |  4.38  |
 |  14  | *Not Implemented* |  4.38  |  4.69  |
-|  15  | Reset |  4.69  |  5  |
+|  15  | Shuffle |  4.69  |  5  |
 
 Note that the **Method #** is displayed (in binary) on the four red LEDs above the METHOD control. 
 
