@@ -14,6 +14,8 @@ I am new to KiCad and the BoM generator produces output in .csv format. I have d
 
 There are a few minor points of potential confusion in the BoM (e.g. where I gave some resistors value "10K" and others "10k"), but I'm sure you'll figure it out. Note particularly that the two multi-turn trimmers, TR1 and TR2  (the blue components seen in the photo above) are listed as having value 1k in the schematic and the BoM. I decided to use 10k components,as I had them to hand. Any value above 1k (and up to 100k) will work fine. There is some description of calibrating the trimmers [here](https://github.com/m0xpd/STRACHEY/tree/main#calibration-and-configuration).
 
+I am grateful to 'Harpooneer' who is building a STRACHEY sequencer - he has pointed out that the Main PCB is too congested around the trimmers TR1 and TR2 and we have discussed the build. TR1 and TR2 should be Bourns 3296W (or equivalent) types. They do just fit (as you see in the image above) but it certainly is a squeeze! I found assembly of the prototype easier if you fit the trimmers before other adjacent componenents (R37, R43, R44 and R45) and ensure that C8 is a slim disc ceramic. 
+
 The [.pcb file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/main%20board.kicad_pcb) and [.pro file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/main%20board.kicad_pro) (togther with the [.sch file](https://github.com/m0xpd/STRACHEY/blob/main/Hardware/Main/main%20board.kicad_sch) ) constitute a KiCad project, which define the Main board. 
 
 [JLCPCB](https://jlcpcb.com) made the boards for my prototype and did their usual excellent job (usual disclaimer) - you can see the top and bottom sides of the Main Board below:
